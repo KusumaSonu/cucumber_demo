@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sauce_login_logout">
+<test name="login_logout">
+<classes>
+<class name="driverscript.Driverscript_saucedemo">
+</class>
+</classes>
+</test>
+</suite>

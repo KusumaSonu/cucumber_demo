@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sauce_login_logout]">
+  <test thread-count="5" name="login_logout(failed)">
+    <classes>
+      <class name="driverscript.Driverscript_saucedemo">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setupclass"/>
+          <include name="terdown"/>
+        </methods>
+      </class> <!-- driverscript.Driverscript_saucedemo -->
+    </classes>
+  </test> <!-- login_logout(failed) -->
+</suite> <!-- Failed suite [sauce_login_logout] -->
