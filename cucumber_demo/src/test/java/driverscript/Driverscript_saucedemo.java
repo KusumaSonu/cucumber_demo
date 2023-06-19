@@ -22,12 +22,12 @@ public class Driverscript_saucedemo {
 		testngcucumberunner = new TestNGCucumberRunner(this.getClass());
 	}
 
-	@Test(dataProvider = "datapa")
+	@Test(dataProvider = "datapad")
 	public void feature(CucumberFeatureWrapper cucumberfeature) {
 		testngcucumberunner.runCucumber(cucumberfeature.getCucumberFeature());
 	}
 
-	@DataProvider(name = "datapa")
+	@DataProvider(name = "datapad")
 	public Object[][] features() {
 		if (testngcucumberunner == null) {
 			testngcucumberunner = new TestNGCucumberRunner(this.getClass());
